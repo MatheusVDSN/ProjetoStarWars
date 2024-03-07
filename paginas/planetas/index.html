@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters | Matheus V. Silveira </title>
+    <link rel="stylesheet" href="planetas.css">
+   <link rel="shortcut icon" href="/assets/millennium-falcon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href='/'>
+                <img src="/assets/star-wars-logo.png" alt="logo" class="logo-img">
+            </a>
+        </div>
+
+            <div class="menu">
+                <nav>
+                    <a href='/'>Characters</a>
+                    <a href='/paginas/planetas/index.html'>Planets</a>
+                </nav>
+            </div>
+
+            <button class="btn" onclick="animarMenu()"  id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <a href='/'>Characters</a>
+                    <a href='/paginas/planetas/index.html'>Planets</a>
+                </nav>
+            </div>
+       
+        <div class="social-media">
+            <a href="https://www.instagram.com/matheusvoc_/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/MatheusVDSN" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/matheus-victor-silveira-nunes-66a1b51bb/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i> 
+            </a>
+    
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Star Wars : Veja todos os planetas </h2>
+
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+        <div class="modal-content" id="modal-content"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próxima</button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-logo">Star Wars Planets</p>
+           
+        <div class="social-media-mobile">
+            <a href="https://www.instagram.com/matheusvoc_/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/MatheusVDSN" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/matheus-victor-silveira-nunes-66a1b51bb/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i> 
+            </a>
+    
+        </div>
+
+        <p class="copyrigth">Desenvolvido por &copy; Matheus V. Silveira</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/6f07c19ee6.js" crossorigin="anonymous"></script>
+    <script src="./planetas.js"></script>
+</body>
+</html>
